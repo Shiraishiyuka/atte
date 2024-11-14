@@ -1,0 +1,36 @@
+# .dockerignore
+
+# バックアップファイルやキャッシュファイルの除外
+*.bak
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# バージョン管理関連のファイルを除外
+.git
+.gitignore
+.hg
+.svn
+
+# Node.js関連のファイルやディレクトリを除外（使用している場合）
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Python関連のキャッシュや仮想環境を除外（使用している場合）
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+venv/
+
+# Docker用に作成したビルドファイルやディレクトリ
+docker/mysql/data
+docker/other_large_files_or_directories
+
+# ログファイル
+logs/
+*.log

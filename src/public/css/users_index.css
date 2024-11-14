@@ -1,0 +1,90 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+
+  .form {
+      display: flex;
+      /* Display items in a row */
+      align-items: center;
+      /* Center items vertically */
+      margin-left: auto;
+      /* Push to the right */
+      gap: 15px;
+      /* Add some spacing between items */
+  }
+
+  .form_item {
+      font-size: 14px;
+      /* Adjust font size */
+      padding: 0 7px;
+      /* Add padding */
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: black;
+  }
+
+
+
+
+  .user_table {
+    width: 80%;
+        height: 300px;
+        border-collapse: collapse;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+  }
+
+.index_row {
+    height: 60px;
+    text-align: center;
+    border-top: 1px solid;
+    /* Adjust height for rows */
+}
+
+.index_label,
+.index_date {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ボタンのスタイル修正 */
+.btn-primary {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* 5件未満の場合、残りの行数分の空白を作る */
+.index_table tbody:after {
+    content: '';
+    display: block;
+
+    height: calc(100% - (60px * {
+                    {
+                    count($dailyAttendances)
+                }
+            }));
+}
+
+.index_label,
+.index_date {
+    vertical-align: middle;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    /* ページネーションとテーブルに余白 */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* 下にも余白を追加 */
+}
+

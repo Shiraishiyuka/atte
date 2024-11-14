@@ -1,0 +1,187 @@
+/* 基準のフォントサイズを設定 */
+html {
+    font-size: 16px; /* 1rem = 16px */
+}
+
+.login_heading {
+    width: 100%;
+    text-align: center;
+    padding-top: 2.5rem; /* 40px */
+    color: #000;
+}
+
+.login_text {
+    font-size: 1.25rem; /* 20px */
+    font-weight: 400;
+}
+
+.login_form {
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 1.875rem; /* 30px */
+}
+
+.input_field {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.text {
+    width: 100%;
+    height: 2.5rem; /* 40px */
+    padding-left: 0.625rem; /* 10px */
+    font-size: 0.8125rem; /* 13px */
+    border: 1px solid rgb(113, 105, 105);
+    border-radius: 0.1875rem; /* 3px */
+    background-color: rgb(245, 245, 245);
+}
+
+.button, .login_button {
+    width: 100%;
+    margin-top: 1.25rem; /* 20px */
+    text-align: center;
+}
+
+.button-submit {
+    width: 100%;
+        height: 2.5rem;
+        /* 40px */
+        font-size: 0.8125rem;
+        /* 13px */
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 0.1875rem;
+        /* 3px */
+        cursor: pointer;
+}
+
+.register_button-submit {
+    border: none;
+        color: blue;
+        font-size: 0.8125rem;
+        /* 13px */
+        background: none;
+        cursor: pointer;
+}
+
+.button-submit:hover, .login_button-submit:hover, .register_button-submit:hover {
+    background-color: darkblue;
+}
+
+.note {
+    font-size: 0.8125rem; /* 13px */
+    color: gray;
+    text-align: center;
+}
+
+.return_button, .register_button {
+    text-align: center;
+    margin-top: 1.25rem; /* 20px */
+}
+
+.form_error {
+    font-size: 0.75rem; /* 12px */
+    color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.login_heading {
+    color: #000;
+    width: 100%;
+    text-align: center;
+        padding-top: 40px;
+
+}
+
+.login_text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.login_form {
+    width: 30%;
+    height: 45%;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+.input_field {
+    width: 100%;
+    height: 30%;
+}
+
+.text {
+    width: 100%;
+    height: 55%;
+    border-radius: 3px;
+    border: 1px solid rgb(113, 105, 105);
+    font-size: 13px;
+    padding-left: 10px;
+    background-color: rgb(245, 245, 245);
+}
+
+.button {
+    width: 100%;
+    height: 30%;
+    font-size: 10px;
+
+}
+
+.button-submit {
+    width: 100%;
+    height: 65%;
+    font-size: 13px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.note {
+    font-size: 13px;
+    color: gray;
+    text-align: center;
+}
+
+.register_button {
+    width: 100%;
+    text-align: center;
+
+}
+.register_button-submit {
+    border: none;
+    color: blue;
+    font-size: 13px;
+}
+
+エラーの設定
+.form_error {
+    font-size: 12px;
+    color: #ff0000;
+}
+*/

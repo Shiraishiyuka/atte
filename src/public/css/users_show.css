@@ -1,0 +1,117 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    /* ページネーションとテーブルに余白 */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* 下にも余白を追加 */
+}
+
+.su {
+    width: 30%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    gap: 15px;
+}
+
+
+
+.box {
+    width: 45px;
+    font-size: 20px;
+    color: blue;
+    border: 1px solid blue;
+    background-color: #fff;
+    text-align: center;
+}
+
+.date_arrow {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.year {
+    font-size: 20px;
+}
+
+/*テーブル*/
+
+.index_table {
+    width: 80%;
+    height: 300px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+
+.index_row {
+    height: 60px;
+    text-align: center;
+    border-top: 1px solid;
+    /* Adjust height for rows */
+}
+
+.index_label,
+.index_date {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* 5件未満の場合、残りの行数分の空白を作る */
+.index_table tbody:after {
+    content: '';
+    display: block;
+
+    height: calc(100% - (60px * {
+                    {
+                    count($dailyAttendances)
+                }
+            }));
+}
+
+.index_label,
+.index_date {
+    vertical-align: middle;
+}
+
+nav {
+    padding: 30px;
+    margin: 0 auto;
+}
+
+
+
+.primary {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.back {
+    width: 8rem;
+        height: 3rem;
+        /* 40px */
+        font-size: 0.8125rem;
+        /* 13px */
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 0.1875rem;
+        /* 3px */
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+}
