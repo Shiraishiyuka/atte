@@ -174,7 +174,8 @@ class AttendanceController extends Controller
         });
     })
              ->with('user')
-             ->paginate(5);
+             ->paginate(5)
+             ->withQueryString();
         
 
 
@@ -261,7 +262,8 @@ private function calculateWorkTimeForDate($startTime, $endTime, $date)
                 $query->whereDate('start_time', $date)
                       ->orWhereDate('end_time', $date);
             })
-            ->paginate(5);
+            ->paginate(5)
+            ->withQueryString(); 
 
         $dailyAttendances = [];
 
